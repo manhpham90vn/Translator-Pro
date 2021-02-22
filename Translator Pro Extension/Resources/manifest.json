@@ -19,12 +19,12 @@
         "scripts": [ "background.js", "injection.js", "main_compiled.js" ]
     },
 
-    "content_scripts": [{
-        "all_frames": true,
-        "css": [ "bubble_gss.css" ],
-        "js": [ "content.js", "bubble_compiled" ],
-        "matches": [ "<all_urls>" ]
-    }],
+    "content_scripts": [ {
+          "all_frames": true,
+          "css": [ "bubble_gss.css" ],
+          "js": [ "bubble_compiled.js" ],
+          "matches": [ "\u003Call_urls>" ]
+       } ],
 
     "content_security_policy": "script-src 'self' 'unsafe-eval' https://translate.googleapis.com; object-src 'self'",
     "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfHy1M+jghaHyaVAILzx/c/Dy+RXtcaP9/5pC7EY8JlNEI/G4DIIng9IzlrH8UWStpMWMyGUsdyusn2PkYFrqfVzhc2azVF3PX9D0KHG3FLN3mNoz1YTBHvO5QSXJf292qW0tTYuoGqeTfXtF9odLdg20Xd0YrLmtS4TQkpSYGDwIDAQAB",
