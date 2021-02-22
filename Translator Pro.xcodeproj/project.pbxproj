@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEEB5D925E36E0800C50B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB5D825E36E0800C50B30 /* AppDelegate.swift */; };
+		BBEEB5DC25E36E0800C50B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB5DA25E36E0800C50B30 /* Main.storyboard */; };
+		BBEEB5DE25E36E0800C50B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB5DD25E36E0800C50B30 /* ViewController.swift */; };
+		BBEEB5E025E36E0800C50B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB5DF25E36E0800C50B30 /* Assets.xcassets */; };
+		BBEEB5EB25E36E0800C50B30 /* Translator_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB5EA25E36E0800C50B30 /* Translator_ProTests.swift */; };
+		BBEEB5F625E36E0800C50B30 /* Translator_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB5F525E36E0800C50B30 /* Translator_ProUITests.swift */; };
+		BBEEB5FD25E36E0800C50B30 /* Translator Pro Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BBEEB5FC25E36E0800C50B30 /* Translator Pro Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BBEEB60225E36E0800C50B30 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEEB60125E36E0800C50B30 /* Cocoa.framework */; };
+		BBEEB60525E36E0800C50B30 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEEB60425E36E0800C50B30 /* SafariWebExtensionHandler.swift */; };
+		BBEEB60825E36E0800C50B30 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB60725E36E0800C50B30 /* _locales */; };
+		BBEEB60A25E36E0900C50B30 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB60925E36E0800C50B30 /* images */; };
+		BBEEB60C25E36E0900C50B30 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB60B25E36E0900C50B30 /* manifest.json */; };
+		BBEEB60E25E36E0900C50B30 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB60D25E36E0900C50B30 /* background.js */; };
+		BBEEB61025E36E0900C50B30 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB60F25E36E0900C50B30 /* content.js */; };
+		BBEEB61225E36E0900C50B30 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB61125E36E0900C50B30 /* popup.html */; };
+		BBEEB61425E36E0900C50B30 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB61325E36E0900C50B30 /* popup.css */; };
+		BBEEB61625E36E0900C50B30 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB61525E36E0900C50B30 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEEB5E725E36E0800C50B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEEB5CC25E36E0800C50B30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEEB5D325E36E0800C50B30;
+			remoteInfo = "Translator Pro";
+		};
+		BBEEB5F225E36E0800C50B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEEB5CC25E36E0800C50B30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEEB5D325E36E0800C50B30;
+			remoteInfo = "Translator Pro";
+		};
+		BBEEB5FE25E36E0800C50B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEEB5CC25E36E0800C50B30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEEB5FB25E36E0800C50B30;
+			remoteInfo = "Translator Pro Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBEEB61E25E36E0900C50B30 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BBEEB5FD25E36E0800C50B30 /* Translator Pro Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BBEEB5D425E36E0800C50B30 /* Translator Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Translator Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEEB5D725E36E0800C50B30 /* Translator_Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translator_Pro.entitlements; sourceTree = "<group>"; };
+		BBEEB5D825E36E0800C50B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBEEB5DB25E36E0800C50B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBEEB5DD25E36E0800C50B30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBEEB5DF25E36E0800C50B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEEB5E125E36E0800C50B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEEB5E625E36E0800C50B30 /* Translator ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Translator ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEEB5EA25E36E0800C50B30 /* Translator_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator_ProTests.swift; sourceTree = "<group>"; };
+		BBEEB5EC25E36E0800C50B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEEB5F125E36E0800C50B30 /* Translator ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Translator ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEEB5F525E36E0800C50B30 /* Translator_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator_ProUITests.swift; sourceTree = "<group>"; };
+		BBEEB5F725E36E0800C50B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEEB5FC25E36E0800C50B30 /* Translator Pro Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Translator Pro Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEEB60125E36E0800C50B30 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BBEEB60425E36E0800C50B30 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BBEEB60725E36E0800C50B30 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		BBEEB60925E36E0800C50B30 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BBEEB60B25E36E0900C50B30 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		BBEEB60D25E36E0900C50B30 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		BBEEB60F25E36E0900C50B30 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		BBEEB61125E36E0900C50B30 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		BBEEB61325E36E0900C50B30 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		BBEEB61525E36E0900C50B30 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		BBEEB61725E36E0900C50B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEEB61825E36E0900C50B30 /* Translator_Pro_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translator_Pro_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEEB5D125E36E0800C50B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5E325E36E0800C50B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5EE25E36E0800C50B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5F925E36E0800C50B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB60225E36E0800C50B30 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBEEB5CB25E36E0800C50B30 = {
+			isa = PBXGroup;
+			children = (
+				BBEEB5D625E36E0800C50B30 /* Translator Pro */,
+				BBEEB5E925E36E0800C50B30 /* Translator ProTests */,
+				BBEEB5F425E36E0800C50B30 /* Translator ProUITests */,
+				BBEEB60325E36E0800C50B30 /* Translator Pro Extension */,
+				BBEEB60025E36E0800C50B30 /* Frameworks */,
+				BBEEB5D525E36E0800C50B30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEEB5D525E36E0800C50B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB5D425E36E0800C50B30 /* Translator Pro.app */,
+				BBEEB5E625E36E0800C50B30 /* Translator ProTests.xctest */,
+				BBEEB5F125E36E0800C50B30 /* Translator ProUITests.xctest */,
+				BBEEB5FC25E36E0800C50B30 /* Translator Pro Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEEB5D625E36E0800C50B30 /* Translator Pro */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB5D725E36E0800C50B30 /* Translator_Pro.entitlements */,
+				BBEEB5D825E36E0800C50B30 /* AppDelegate.swift */,
+				BBEEB5DA25E36E0800C50B30 /* Main.storyboard */,
+				BBEEB5DD25E36E0800C50B30 /* ViewController.swift */,
+				BBEEB5DF25E36E0800C50B30 /* Assets.xcassets */,
+				BBEEB5E125E36E0800C50B30 /* Info.plist */,
+			);
+			path = "Translator Pro";
+			sourceTree = "<group>";
+		};
+		BBEEB5E925E36E0800C50B30 /* Translator ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB5EA25E36E0800C50B30 /* Translator_ProTests.swift */,
+				BBEEB5EC25E36E0800C50B30 /* Info.plist */,
+			);
+			path = "Translator ProTests";
+			sourceTree = "<group>";
+		};
+		BBEEB5F425E36E0800C50B30 /* Translator ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB5F525E36E0800C50B30 /* Translator_ProUITests.swift */,
+				BBEEB5F725E36E0800C50B30 /* Info.plist */,
+			);
+			path = "Translator ProUITests";
+			sourceTree = "<group>";
+		};
+		BBEEB60025E36E0800C50B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB60125E36E0800C50B30 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBEEB60325E36E0800C50B30 /* Translator Pro Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB60425E36E0800C50B30 /* SafariWebExtensionHandler.swift */,
+				BBEEB61725E36E0900C50B30 /* Info.plist */,
+				BBEEB61825E36E0900C50B30 /* Translator_Pro_Extension.entitlements */,
+				BBEEB60625E36E0800C50B30 /* Resources */,
+			);
+			path = "Translator Pro Extension";
+			sourceTree = "<group>";
+		};
+		BBEEB60625E36E0800C50B30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEB60725E36E0800C50B30 /* _locales */,
+				BBEEB60925E36E0800C50B30 /* images */,
+				BBEEB60B25E36E0900C50B30 /* manifest.json */,
+				BBEEB60D25E36E0900C50B30 /* background.js */,
+				BBEEB60F25E36E0900C50B30 /* content.js */,
+				BBEEB61125E36E0900C50B30 /* popup.html */,
+				BBEEB61325E36E0900C50B30 /* popup.css */,
+				BBEEB61525E36E0900C50B30 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEEB5D325E36E0800C50B30 /* Translator Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEEB61F25E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator Pro" */;
+			buildPhases = (
+				BBEEB5D025E36E0800C50B30 /* Sources */,
+				BBEEB5D125E36E0800C50B30 /* Frameworks */,
+				BBEEB5D225E36E0800C50B30 /* Resources */,
+				BBEEB61E25E36E0900C50B30 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEEB5FF25E36E0800C50B30 /* PBXTargetDependency */,
+			);
+			name = "Translator Pro";
+			productName = "Translator Pro";
+			productReference = BBEEB5D425E36E0800C50B30 /* Translator Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEEB5E525E36E0800C50B30 /* Translator ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEEB62225E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator ProTests" */;
+			buildPhases = (
+				BBEEB5E225E36E0800C50B30 /* Sources */,
+				BBEEB5E325E36E0800C50B30 /* Frameworks */,
+				BBEEB5E425E36E0800C50B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEEB5E825E36E0800C50B30 /* PBXTargetDependency */,
+			);
+			name = "Translator ProTests";
+			productName = "Translator ProTests";
+			productReference = BBEEB5E625E36E0800C50B30 /* Translator ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEEB5F025E36E0800C50B30 /* Translator ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEEB62525E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator ProUITests" */;
+			buildPhases = (
+				BBEEB5ED25E36E0800C50B30 /* Sources */,
+				BBEEB5EE25E36E0800C50B30 /* Frameworks */,
+				BBEEB5EF25E36E0800C50B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEEB5F325E36E0800C50B30 /* PBXTargetDependency */,
+			);
+			name = "Translator ProUITests";
+			productName = "Translator ProUITests";
+			productReference = BBEEB5F125E36E0800C50B30 /* Translator ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BBEEB5FB25E36E0800C50B30 /* Translator Pro Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEEB61B25E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator Pro Extension" */;
+			buildPhases = (
+				BBEEB5F825E36E0800C50B30 /* Sources */,
+				BBEEB5F925E36E0800C50B30 /* Frameworks */,
+				BBEEB5FA25E36E0800C50B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Translator Pro Extension";
+			productName = "Translator Pro Extension";
+			productReference = BBEEB5FC25E36E0800C50B30 /* Translator Pro Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEEB5CC25E36E0800C50B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BBEEB5D325E36E0800C50B30 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BBEEB5E525E36E0800C50B30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BBEEB5D325E36E0800C50B30;
+					};
+					BBEEB5F025E36E0800C50B30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BBEEB5D325E36E0800C50B30;
+					};
+					BBEEB5FB25E36E0800C50B30 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BBEEB5CF25E36E0800C50B30 /* Build configuration list for PBXProject "Translator Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEEB5CB25E36E0800C50B30;
+			productRefGroup = BBEEB5D525E36E0800C50B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEEB5D325E36E0800C50B30 /* Translator Pro */,
+				BBEEB5E525E36E0800C50B30 /* Translator ProTests */,
+				BBEEB5F025E36E0800C50B30 /* Translator ProUITests */,
+				BBEEB5FB25E36E0800C50B30 /* Translator Pro Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEEB5D225E36E0800C50B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB5E025E36E0800C50B30 /* Assets.xcassets in Resources */,
+				BBEEB5DC25E36E0800C50B30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5E425E36E0800C50B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5EF25E36E0800C50B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5FA25E36E0800C50B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB60E25E36E0900C50B30 /* background.js in Resources */,
+				BBEEB61425E36E0900C50B30 /* popup.css in Resources */,
+				BBEEB61225E36E0900C50B30 /* popup.html in Resources */,
+				BBEEB60A25E36E0900C50B30 /* images in Resources */,
+				BBEEB60C25E36E0900C50B30 /* manifest.json in Resources */,
+				BBEEB60825E36E0800C50B30 /* _locales in Resources */,
+				BBEEB61025E36E0900C50B30 /* content.js in Resources */,
+				BBEEB61625E36E0900C50B30 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEEB5D025E36E0800C50B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB5DE25E36E0800C50B30 /* ViewController.swift in Sources */,
+				BBEEB5D925E36E0800C50B30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5E225E36E0800C50B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB5EB25E36E0800C50B30 /* Translator_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5ED25E36E0800C50B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB5F625E36E0800C50B30 /* Translator_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEB5F825E36E0800C50B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEEB60525E36E0800C50B30 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEEB5E825E36E0800C50B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEEB5D325E36E0800C50B30 /* Translator Pro */;
+			targetProxy = BBEEB5E725E36E0800C50B30 /* PBXContainerItemProxy */;
+		};
+		BBEEB5F325E36E0800C50B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEEB5D325E36E0800C50B30 /* Translator Pro */;
+			targetProxy = BBEEB5F225E36E0800C50B30 /* PBXContainerItemProxy */;
+		};
+		BBEEB5FF25E36E0800C50B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEEB5FB25E36E0800C50B30 /* Translator Pro Extension */;
+			targetProxy = BBEEB5FE25E36E0800C50B30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBEEB5DA25E36E0800C50B30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEEB5DB25E36E0800C50B30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBEEB61925E36E0900C50B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBEEB61A25E36E0900C50B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BBEEB61C25E36E0900C50B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Translator Pro Extension/Translator_Pro_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Translator Pro Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-Pro.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBEEB61D25E36E0900C50B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Translator Pro Extension/Translator_Pro_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Translator Pro Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-Pro.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BBEEB62025E36E0900C50B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Translator Pro/Translator_Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Translator Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBEEB62125E36E0900C50B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Translator Pro/Translator_Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Translator Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BBEEB62325E36E0900C50B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				INFOPLIST_FILE = "Translator ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translator Pro.app/Contents/MacOS/Translator Pro";
+			};
+			name = Debug;
+		};
+		BBEEB62425E36E0900C50B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				INFOPLIST_FILE = "Translator ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Translator Pro.app/Contents/MacOS/Translator Pro";
+			};
+			name = Release;
+		};
+		BBEEB62625E36E0900C50B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				INFOPLIST_FILE = "Translator ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Translator Pro";
+			};
+			name = Debug;
+		};
+		BBEEB62725E36E0900C50B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UPJRMYQ38F;
+				INFOPLIST_FILE = "Translator ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manhpham.Translator-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Translator Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEEB5CF25E36E0800C50B30 /* Build configuration list for PBXProject "Translator Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEEB61925E36E0900C50B30 /* Debug */,
+				BBEEB61A25E36E0900C50B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEEB61B25E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator Pro Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEEB61C25E36E0900C50B30 /* Debug */,
+				BBEEB61D25E36E0900C50B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEEB61F25E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEEB62025E36E0900C50B30 /* Debug */,
+				BBEEB62125E36E0900C50B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEEB62225E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEEB62325E36E0900C50B30 /* Debug */,
+				BBEEB62425E36E0900C50B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEEB62525E36E0900C50B30 /* Build configuration list for PBXNativeTarget "Translator ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEEB62625E36E0900C50B30 /* Debug */,
+				BBEEB62725E36E0900C50B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEEB5CC25E36E0800C50B30 /* Project object */;
+}
