@@ -15,14 +15,21 @@
     },
 
     "background": {
-        "scripts": [ "background.js" ]
+        "persistent": false,
+        "scripts": [ "background.js", "injection.js", "main_compiled.js" ]
     },
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "all_frames": true,
+        "css": [ "bubble_gss.css" ],
+        "js": [ "content.js", "bubble_compiled" ],
+        "matches": [ "<all_urls>" ]
     }],
 
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://translate.googleapis.com; object-src 'self'",
+    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfHy1M+jghaHyaVAILzx/c/Dy+RXtcaP9/5pC7EY8JlNEI/G4DIIng9IzlrH8UWStpMWMyGUsdyusn2PkYFrqfVzhc2azVF3PX9D0KHG3FLN3mNoz1YTBHvO5QSXJf292qW0tTYuoGqeTfXtF9odLdg20Xd0YrLmtS4TQkpSYGDwIDAQAB",
+    "options_page": "options.html",
+    
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -33,5 +40,6 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "activeTab", "contextMenus", "storage" ],
+    "web_accessible_resources": [ "popup_css_compiled.css", "options.html" ]
 }

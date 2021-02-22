@@ -24,6 +24,16 @@
 		BBEEB61225E36E0900C50B30 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB61125E36E0900C50B30 /* popup.html */; };
 		BBEEB61425E36E0900C50B30 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB61325E36E0900C50B30 /* popup.css */; };
 		BBEEB61625E36E0900C50B30 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB61525E36E0900C50B30 /* popup.js */; };
+		BBEEB66525E3887300C50B30 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66425E3887300C50B30 /* icons */; };
+		BBEEB67325E388B400C50B30 /* bubble_gss.css in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66A25E388B400C50B30 /* bubble_gss.css */; };
+		BBEEB67425E388B400C50B30 /* options_css_compiled.css in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66B25E388B400C50B30 /* options_css_compiled.css */; };
+		BBEEB67525E388B400C50B30 /* bubble_compiled.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66C25E388B400C50B30 /* bubble_compiled.js */; };
+		BBEEB67625E388B400C50B30 /* injection.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66D25E388B400C50B30 /* injection.js */; };
+		BBEEB67725E388B400C50B30 /* popup_css_compiled.css in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66E25E388B400C50B30 /* popup_css_compiled.css */; };
+		BBEEB67825E388B400C50B30 /* main_compiled.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB66F25E388B400C50B30 /* main_compiled.js */; };
+		BBEEB67925E388B400C50B30 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB67025E388B400C50B30 /* options.html */; };
+		BBEEB67A25E388B400C50B30 /* options_compiled.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB67125E388B400C50B30 /* options_compiled.js */; };
+		BBEEB67B25E388B400C50B30 /* popup_compiled.js in Resources */ = {isa = PBXBuildFile; fileRef = BBEEB67225E388B400C50B30 /* popup_compiled.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +101,16 @@
 		BBEEB61525E36E0900C50B30 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		BBEEB61725E36E0900C50B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBEEB61825E36E0900C50B30 /* Translator_Pro_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Translator_Pro_Extension.entitlements; sourceTree = "<group>"; };
+		BBEEB66425E3887300C50B30 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		BBEEB66A25E388B400C50B30 /* bubble_gss.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bubble_gss.css; sourceTree = "<group>"; };
+		BBEEB66B25E388B400C50B30 /* options_css_compiled.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = options_css_compiled.css; sourceTree = "<group>"; };
+		BBEEB66C25E388B400C50B30 /* bubble_compiled.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bubble_compiled.js; sourceTree = "<group>"; };
+		BBEEB66D25E388B400C50B30 /* injection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = injection.js; sourceTree = "<group>"; };
+		BBEEB66E25E388B400C50B30 /* popup_css_compiled.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = popup_css_compiled.css; sourceTree = "<group>"; };
+		BBEEB66F25E388B400C50B30 /* main_compiled.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main_compiled.js; sourceTree = "<group>"; };
+		BBEEB67025E388B400C50B30 /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		BBEEB67125E388B400C50B30 /* options_compiled.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = options_compiled.js; sourceTree = "<group>"; };
+		BBEEB67225E388B400C50B30 /* popup_compiled.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup_compiled.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +222,16 @@
 		BBEEB60625E36E0800C50B30 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BBEEB66C25E388B400C50B30 /* bubble_compiled.js */,
+				BBEEB66A25E388B400C50B30 /* bubble_gss.css */,
+				BBEEB66D25E388B400C50B30 /* injection.js */,
+				BBEEB66F25E388B400C50B30 /* main_compiled.js */,
+				BBEEB67125E388B400C50B30 /* options_compiled.js */,
+				BBEEB66B25E388B400C50B30 /* options_css_compiled.css */,
+				BBEEB67025E388B400C50B30 /* options.html */,
+				BBEEB67225E388B400C50B30 /* popup_compiled.js */,
+				BBEEB66E25E388B400C50B30 /* popup_css_compiled.css */,
+				BBEEB66425E3887300C50B30 /* icons */,
 				BBEEB60725E36E0800C50B30 /* _locales */,
 				BBEEB60925E36E0800C50B30 /* images */,
 				BBEEB60B25E36E0900C50B30 /* manifest.json */,
@@ -364,11 +394,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBEEB60E25E36E0900C50B30 /* background.js in Resources */,
+				BBEEB67625E388B400C50B30 /* injection.js in Resources */,
+				BBEEB67425E388B400C50B30 /* options_css_compiled.css in Resources */,
 				BBEEB61425E36E0900C50B30 /* popup.css in Resources */,
 				BBEEB61225E36E0900C50B30 /* popup.html in Resources */,
+				BBEEB66525E3887300C50B30 /* icons in Resources */,
+				BBEEB67525E388B400C50B30 /* bubble_compiled.js in Resources */,
 				BBEEB60A25E36E0900C50B30 /* images in Resources */,
 				BBEEB60C25E36E0900C50B30 /* manifest.json in Resources */,
 				BBEEB60825E36E0800C50B30 /* _locales in Resources */,
+				BBEEB67325E388B400C50B30 /* bubble_gss.css in Resources */,
+				BBEEB67925E388B400C50B30 /* options.html in Resources */,
+				BBEEB67825E388B400C50B30 /* main_compiled.js in Resources */,
+				BBEEB67A25E388B400C50B30 /* options_compiled.js in Resources */,
+				BBEEB67B25E388B400C50B30 /* popup_compiled.js in Resources */,
+				BBEEB67725E388B400C50B30 /* popup_css_compiled.css in Resources */,
 				BBEEB61025E36E0900C50B30 /* content.js in Resources */,
 				BBEEB61625E36E0900C50B30 /* popup.js in Resources */,
 			);
